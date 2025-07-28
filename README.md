@@ -1,2 +1,2 @@
 # PCB-Designs
-PCBs for Drive, power, robotic arm and life sciences
+PCBs for Drive, power, robotic arm, misc
