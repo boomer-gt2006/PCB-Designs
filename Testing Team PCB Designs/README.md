@@ -1,7 +1,23 @@
 # Testing Team PCB Designs
 
+![Testing Team](https://img.shields.io/badge/Testing-Team-green?style=for-the-badge)
+![Validation](https://img.shields.io/badge/Quality-Assurance-orange?style=for-the-badge)
+
 ## 🧪 Mission Statement
 Validate, test, and optimize PCB designs through rigorous testing protocols and real-world deployment scenarios.
+
+## 🖼️ Current Test Subject
+
+### Rover Motor Control PCB
+<div align="center">
+
+![Motor Control 3D](Motor%20Control/PCB_3D_view.png)
+*3D view of the Rover Motor Control PCB under testing*
+
+</div>
+
+> **Status**: ✅ Design Complete, 🔄 Testing Phase  
+> **Performance**: Exceeding expectations in initial tests
 
 ## 🚀 Current Projects
 

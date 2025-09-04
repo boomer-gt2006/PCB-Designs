@@ -1,7 +1,20 @@
 # Power Distribution PCB Files
 
+![Power Management](https://img.shields.io/badge/Power-Management-red?style=for-the-badge)
+![24V to 5V](https://img.shields.io/badge/24V%20to%205V-Buck%20Converter-green?style=for-the-badge)
+
 ## Overview
 This directory contains all files related to the Power Distribution Network (PDN) PCB design.
+
+## 🖼️ Design Visuals
+
+### 3D PCB Visualization
+![PDN 3D View](3D_PCB1_2025-08-20.png)
+*3D rendered view of the Power Distribution PCB showing component placement and routing*
+
+### Schematic Diagram
+![PDN Schematic](SCH_Schematic1_1-P1_2025-08-20.png)
+*Complete schematic showing the 24V to 5V buck converter with protection circuits*
 
 ## Files Description
 

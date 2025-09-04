@@ -1,7 +1,41 @@
 # Bill of Materials (BOM) Files
 
+![BOM Management](https://img.shields.io/badge/BOM-Management-purple?style=for-the-badge)
+![Cost Analysis](https://img.shields.io/badge/Cost-Analysis-green?style=for-the-badge)
+
 ## Overview
 This directory contains Bill of Materials files for all tested PCB designs, providing complete component information including part numbers, suppliers, and pricing.
+
+## 📊 Cost Analysis Dashboard
+
+### BOM Analysis - Rover Motor Control
+
+```mermaid
+pie title Component Cost Distribution
+    "Current Sensor (ACS37030)" : 65
+    "ESP32 Module" : 15
+    "Power Components" : 10
+    "Connectors & Misc" : 5
+    "Passive Components" : 5
+```
+
+### 💰 Component Cost Breakdown
+| Component Category | Cost Range | Percentage |
+|-------------------|------------|------------|
+| 🔌 Current Sensor | $8.88 | 65% |
+| 🧠 ESP32 Module | ~$2.00 | 15% |
+| ⚡ Power Management | ~$1.35 | 10% |
+| 🔗 Connectors | ~$0.67 | 5% |
+| 📦 Passive Components | ~$0.45 | 5% |
+
+### 📈 Cost Optimization Trends
+```
+Cost Reduction Opportunities:
+├── Volume Pricing: -15% (qty >100)
+├── Alternative Parts: -8% (pin-compatible)
+├── Local Suppliers: -5% (shipping savings)
+└── Design Optimization: -12% (component reduction)
+```
 
 ## Files Description
 

@@ -1,7 +1,22 @@
 # R&D Team PCB Designs
 
+![R&D Team](https://img.shields.io/badge/R&D-Team-purple?style=for-the-badge)
+![Innovation](https://img.shields.io/badge/Innovation-First-blue?style=for-the-badge)
+
 ## 🔬 Mission Statement
 Research and develop fully custom, efficient, and compact PCB solutions for advanced robotic systems.
+
+## 🖼️ Design Gallery
+
+<div align="center">
+
+### Power Distribution Network - 3D View
+![PDN 3D View](Power%20Distribution/3D_PCB1_2025-08-20.png)
+
+### Schematic Overview
+![PDN Schematic](Power%20Distribution/SCH_Schematic1_1-P1_2025-08-20.png)
+
+</div>
 
 ## 🚀 Current Projects
 

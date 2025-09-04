@@ -1,7 +1,49 @@
 # ESP32 Custom Board Development
 
+![ESP32](https://img.shields.io/badge/ESP32-Custom%20Board-blue?style=for-the-badge)
+![CAN Bus](https://img.shields.io/badge/CAN-Integrated-green?style=for-the-badge)
+![In Progress](https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge)
+
 ## Overview
 This directory will contain all files related to custom ESP32 development board designs optimized for robotic applications.
+
+## 🎯 Design Concept
+
+```mermaid
+graph TD
+    A[ESP32-WROOM-32] --> B[CAN Transceiver]
+    A --> C[Motor Driver Headers]
+    A --> D[Current Sensors]
+    A --> E[USB Programming]
+    B --> F[CAN Bus Network]
+    C --> G[Motor Controllers]
+    D --> H[Real-time Monitoring]
+```
+
+## 🖼️ Design Vision
+
+<div align="center">
+
+### Conceptual Block Diagram
+```
+┌─────────────────────────────────────────────────┐
+│                ESP32 Custom Board               │
+├─────────────────────────────────────────────────┤
+│  ┌─────────┐  ┌──────────┐  ┌───────────────┐   │
+│  │ ESP32   │  │ CAN      │  │ Motor Driver  │   │
+│  │ WROOM   │  │ SN65HVD  │  │ Headers       │   │
+│  │ -32     │  │ 230      │  │               │   │
+│  └─────────┘  └──────────┘  └───────────────┘   │
+├─────────────────────────────────────────────────┤
+│  ┌─────────┐  ┌──────────┐  ┌───────────────┐   │
+│  │ Current │  │ USB-C    │  │ Power         │   │
+│  │ Sensors │  │ Program  │  │ Management    │   │
+│  │ ACS37030│  │ Interface│  │               │   │
+│  └─────────┘  └──────────┘  └───────────────┘   │
+└─────────────────────────────────────────────────┘
+```
+
+</div>
 
 ## Project Goals
 - Create a specialized ESP32 development board
