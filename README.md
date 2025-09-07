@@ -18,6 +18,10 @@ This repository contains PCB designs for various robotic systems including drive
 ![Power Distribution PCB](R&D%20Team%20PCB%20Designs/Power%20Distribution/3D_PCB1_2025-08-20.png)
 *24V to 5V Buck Converter with Protection*
 
+### Integrated Drive PCB
+![Integrated Drive PCB schematic](R&D%20Team%20PCB%20Designs/ESP32%20Custom%20Boards/ESP32-schematic.png)
+*Integrated PCB for drive with CAN*
+
 </td>
 <td width="50%">
 
